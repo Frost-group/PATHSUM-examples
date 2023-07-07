@@ -9,7 +9,5 @@ System coords: omega_1 = 0, omega_2 = 2
 
 Inverse temperature, beta = 0.1 hbar Omega
 
-SMatPI with BlipSum input for calcs within the entanglement interval, path
-threshold zero. 
-
+delT = 0.075
 
