@@ -41,5 +41,5 @@ Example 5
 
 Example 6
 
-- [ ] plot
+- [x] Convergence varying N plot
 
