@@ -27,15 +27,15 @@ set style line 4 lt 4 pt 15 ps 1.2 lc rgb "skyblue" lw 6
 set style line 6 lt 7 pt 7 ps 1.2 lc rgb "#6A5ACD" lw 6
 set style line 5 lt 1 pt 13 ps 1.2 lc rgb "#556B2A" lw 6
 set style line 7 lt 1 pt 13 ps 1.2 lc rgb "orange-red" lw 6
-set style line 8 lt 1 pt 13 ps 1.2 lc rgb "#000000" lw 6 dt 7
+set style line 8 lt 1 pt 13 ps 1.2 lc rgb "#000000" lw 6
 set style line 9 lt 1 pt 13 ps 1.2 lc rgb "midnight-blue" lw 6
 set style line 9 lt 1 pt 13 ps 1.2 lc rgb "cyan" lw 6
 
 p 't/output_t1.txt' u ($1):($2) w lp ls 3 t 'cutoff=1E-4'
 rep 't/output_t2.txt' u ($1):($2) w lp ls 2 t 'cutoff=1E-5'
 rep 't/output_t3.txt' u ($1):($2) w lp ls 4 t 'cutoff=1E-6'
-#rep 't/output_t4.txt' u ($1):($2) w lp ls 6 t 'cutoff=1E-10'
-rep 'r/output_r5.txt' u ($1):($2) w lp ls 8 t 'quapi converged'
+rep 't/output_t4.txt' u ($1):($2) w lp ls 6 t 'cutoff=1E-10'
+rep 'r/output_r5.txt' u ($1):($2) w p ls 8 t 'quapi converged'
 
 
 

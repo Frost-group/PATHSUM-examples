@@ -9,7 +9,7 @@ Example 1
 
 - [x] SMatPI + QuAPI varying rmax
 
-- [ ] SMatPI + TEMPO (everything except 1E-10 which segfaults in Fortran)
+- [x] SMatPI + TEMPO (All TEMPO computed in C++)
 
 Example 2
 
