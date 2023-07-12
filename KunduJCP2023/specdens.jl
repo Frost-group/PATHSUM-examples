@@ -2,7 +2,7 @@
 
 
 
-function specdens(Δσ2 = 4, ξ = 4, ωc = 2, dω=0.005)
+function specdens(Δσ2 = 4, ξ = 2, ωc = 1, dω=0.005)
 
     ω = 1e-12
     f = open("Jw_1", "w")

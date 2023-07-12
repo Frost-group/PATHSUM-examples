@@ -23,9 +23,9 @@ Example 3
 
 - [x] SMatPI + QuAPI 4 curves
 
-- [ ] SMatPI + BlipSum (rmax=L=18 and b=7 is taking way too long to run on a laptop)
+- [x] SMatPI + BlipSum
 
-- [ ] QCPI
+- [ ] QCPI (Running into errors)
 
 Example 4
 
