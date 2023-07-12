@@ -13,7 +13,7 @@ Example 1
 
 Example 2
 
-- [ ] Population of donor state (everything except the TEMPO which segfaults in Fortran)
+- [x] Population of donor state
 
 - [x] Real part of reduced density matrix off-diagonal
 

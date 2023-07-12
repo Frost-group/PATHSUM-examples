@@ -34,7 +34,7 @@ rep 'b2/output_data.txt' u ($1):($2) w lp ls 2 t 'rmax=20 L=50 b=3'
 rep 'b3/output_data.txt' u ($1):($2) w lp ls 4 t 'rmax=20 L=100 b=4'
 rep 'b4/output_data.txt' u ($1):($2) w lp ls 6 t 'rmax=L=50 b=3'
 rep 'quapi/output_data.txt' u ($1):($2) w lp ls 1 t 'QUAPI rmax=L=10'
-
+rep 'tempo_output.txt' every 10 u ($1):($2) w p ls 8 t 'TEMPO rmax=30 L=100 cutoff=1E-6'
 
 
 set terminal postscript enhanced "Helvetica,30" color
